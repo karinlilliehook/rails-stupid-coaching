@@ -1,0 +1,22 @@
+<h1>Stupid coaching</h1>
+
+<div id="you">
+  <p><%= @question.capitalize %></p>
+  <p><em>– You</em></p>
+</div>
+<p>---------------</p>
+<div id="coach">
+  <% if @question == "i am going to work" %>
+  <p><%= "Great!" %></p>
+  <% elsif @question.include? "?" %>
+  <p><%= "Silly question, get dressed and go to work!" %></p>
+  <% else %>
+  <%= "I don't care, get dressed and go to work!" %>
+  <% end %>
+  <p><em>– Coach</em></p>
+</div>
+
+<p>---------------</p>
+
+<%= link_to "Ask another question", ask_path  %>
+

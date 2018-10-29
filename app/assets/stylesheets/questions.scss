@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid darkgrey;
+  border-radius: 2px;
+  font-size: 24px;
+  // border-style: darkgrey;
+}
+
+.button {
+  background-color: #3B7CB3;
+  color: white;
+}
+
+#coach {
+  width: 400px;
+  background-color: #FFFEE3;
+  border-left: 4px solid lightgrey;
+  padding-left: 10px;
+}
+
+#you {
+  border-left: 4px solid lightgrey;
+  padding-left: 10px;
+}
